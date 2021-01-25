@@ -6,6 +6,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Position {
-    private float x;
-    private float y;
+    private Float x;
+    private Float y;
+
+    public Position(Float x, Float y) {
+        this.x = x;
+        this.y = y;
+    }
 }
