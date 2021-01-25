@@ -25,6 +25,13 @@ Para resolver le problema planteado es necesario desarrollar y exponer 3 servici
 
 Los servicios se desplegaron en AWS y puedes ser consumidos mediante Postman o directamente en el Swagger expuesto por el microservicio
 
-En este repositorio se puede encontrar un archivo para importar en Postman y consumir los servicios. [Descargar aquí](https://github.com/PedroVega93/operationQuasar/blob/main/doc/Operation-quasar.postman_collection_POSTMAN.json)
+En este repositorio se puede encontrar un archivo para importar en Postman y consumir los servicios, ya tiene las 5 pestañas consumir directamente los metodos [Descargar aquí](https://github.com/PedroVega93/operationQuasar/blob/main/doc/Operation-quasar.postman_collection_POSTMAN.json)
+###### POST:
+- /operation-quasar/api/topsecret 
+- /operation-quasar/api/topsecret_split/kenobi
+- /operation-quasar/api/topsecret_split/skywalker
+- /operation-quasar/api/topsecret_split/sato
+###### GET:
+- /operation-quasar/api/topsecret_split
 
 Dsde este link [Swagger](http://52.22.71.80:8080/operation-quasar/api/swagger-ui.html) se puede acceder al Swagger expuesto por el microservicio.
