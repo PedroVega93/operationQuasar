@@ -17,4 +17,14 @@ Para determinar la posicion x y y del emisor se realizaron con las siguientes ec
 
 ![](https://github.com/PedroVega93/operationQuasar/blob/main/doc/formula_trilateracion.png)
 
+Para resolver le problema planteado es necesario desarrollar y exponer 3 servicios como explica en este documento: 
 
+- [Operacion Fuego de Quasar](https://github.com/PedroVega93/operationQuasar/blob/main/doc/Operacion%20Fuego%20de%20Quasar.pdf "Problema planteado")
+
+#### Consumir servicios 
+
+Los servicios se desplegaron en AWS y puedes ser consumidos mediante Postman o directamente en el Swagger expuesto por el microservicio
+
+En este repositorio se puede encontrar un archivo para importar en Postman y consumir los servicios. [Descargar aquí](https://github.com/PedroVega93/operationQuasar/blob/main/doc/Operation-quasar.postman_collection_POSTMAN.json)
+
+Dsde este link [Swagger](http://localhost:8080/operation-quasar/api/swagger-ui.html) se puede acceder al Swagger expuesto por el microservicio.
